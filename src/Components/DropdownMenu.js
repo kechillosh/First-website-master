@@ -24,6 +24,12 @@ const DropdownMenu = () => {
       Contact
     </Link>
   );
+
+  const Xml = (
+    <Link className="navLink" to="/Xml" onClick={handleDropdownItemClick}>
+      Xml
+    </Link>
+  );
   function handleDropdownItemClick() {
     setIsOpen(false);
   }
@@ -38,6 +44,7 @@ const DropdownMenu = () => {
           <li>{Home}</li>
           <li>{Locations}</li>
           <li>{Contact}</li>
+          <li>{Xml}</li>
         </ul>
       )}
     </div>
