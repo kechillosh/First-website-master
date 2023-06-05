@@ -9,6 +9,7 @@ import { TfiAlignJustify } from "react-icons/tfi";
 import DropdownMenu from "./DropdownMenu";
 import { GoogleMap, LoadScript, MapContext } from "@react-google-maps/api";
 import Map from "./Map";
+import { SlBookOpen} from "react-icons/sl";
 
 function Navbar() {
   const handleButtonClick1 = () => {
@@ -47,6 +48,9 @@ function Navbar() {
         </Link>
         <Link className="navLink" to="/Contact" onClick={handleButtonClick2}>
           <SiGooglemessages /> Contact
+        </Link>
+        <Link className="navLink" to="/XML" >
+         <SlBookOpen/>  Xml
         </Link>
       </div>
       <div className="mainDrop">

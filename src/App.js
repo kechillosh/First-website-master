@@ -9,6 +9,8 @@ import { GoogleMap, LoadScript } from "@react-google-maps/api";
 import Footer from "./Components/Footer";
 import Map from "./Components/Map.js";
 import NoCheckout from "./Components/NoCheckout";
+import XML from "./Components/XML";
+
 
 function App() {
   // Set a boolean flag to determine whether to show the footer or not
@@ -29,6 +31,7 @@ function App() {
               element={<NoCheckout setShowFooter={setShowFooter} />}
             />
           </Route>
+          <Route path="/XML" element={<XML />} />
         </Routes>
       </Router>
       {showFooter && <Footer />}
