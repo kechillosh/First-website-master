@@ -1,0 +1,15 @@
+.no-cars-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.no-cars-text {
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

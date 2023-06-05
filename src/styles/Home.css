@@ -1,0 +1,219 @@
+.mainHome {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex: 100%;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.secondHome {
+  width: auto;
+}
+
+.secondHome h1 {
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 50;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  position: relative;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  letter-spacing: 1px;
+}
+
+.secondHome p {
+  padding: 0;
+  font-size: 35px;
+  font-weight: lighter;
+  width: 60%;
+}
+
+.secondHome button {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #121619;
+  height: 50px;
+  width: 400px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  letter-spacing: 1px;
+}
+
+.secondHome button:hover {
+  background-color: #07090a;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.secondHome p {
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  letter-spacing: 1px;
+}
+
+.backgroundImg {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backgroundImg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+@media screen and (min-width: 180px) {
+  .secondHome p {
+    font-size: 16px;
+    width: 95%;
+    top: 45%;
+  }
+  .secondHome h1 {
+    font-size: 20px;
+    top: 12%;
+    width: 90%;
+  }
+  .secondHome button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    top: 85%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .secondHome p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .secondHome p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .secondHome p {
+    font-size: 22px;
+  }
+  .secondHome p {
+    font-size: 18px;
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .secondHome p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .secondHome p {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .secondHome p {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .secondHome p {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .secondHome h1 {
+    font-size: 28px;
+  }
+  .secondHome button {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    top: 75%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .secondHome h1 {
+    font-size: 34px;
+  }
+  .secondHome button {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    top: 75%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .secondHome h1 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .secondHome h1 {
+    font-size: 38px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .secondHome h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .secondHome h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .secondHome h1 {
+    font-size: 50px;
+  }
+}

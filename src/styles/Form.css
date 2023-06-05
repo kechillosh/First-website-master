@@ -1,0 +1,91 @@
+.map-container form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 0%;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  width: 200px;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="submit"] {
+  width: 200px;
+  font-size: 1.2rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  background-color: #2ecc71;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form svg {
+  color: green;
+}
+
+.hide {
+  width: 10%;
+  height: 15%;
+  top: 9%;
+  position: absolute;
+  z-index: 2;
+  align-items: start;
+
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  font-size: 15px;
+
+  border-radius: 5px;
+
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hide svg {
+  z-index: 2;
+  color: black;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 461px) {
+  .hide {
+    display: none;
+  }
+}
