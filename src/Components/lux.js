@@ -1,9 +1,10 @@
  import React from 'react'
+ import '../styles/xml2.css'
  
  function lux() {
    return (
-     <div>
-		<h1>Car List</h1>
+    <div className='xml2'> 
+		
 		<ul>
 			<li>Mercedes-Benz S-Class - 
       2019 - 

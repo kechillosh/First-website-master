@@ -1,0 +1,32 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .XmlDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .button_xml {
+    width: 400px;
+    padding: 20px;
+    height: 60px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+  }
+  
+  .button_xml:hover {
+    opacity: 90%;
+  }

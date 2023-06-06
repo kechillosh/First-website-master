@@ -1,9 +1,10 @@
  import React from 'react'
+ import '../styles/xml2.css'
  
  function peste500() {
    return (
-     <div>
-        <h1>Car List</h1>
+	<div className='xml2'> 
+        
 		<div>
 			<h2>Lamborghini Huracán</h2>
 			<p>Year: 2020</p>

@@ -1,9 +1,10 @@
  import React from 'react'
+ import '../styles/xml2.css'
  
  function sport() {
    return (
-     <div>
-        	<h1>Car List</h1>
+    <div className='xml2'> 
+        	
 		<ul>
 			<li>Lamborghini Huracán - 
       2020 - 

@@ -1,8 +1,9 @@
  import React from 'react'
+ import '../styles/xml2.css'
  
  function sortareNegru() {
    return (
-     <div><h1>Car List</h1>
+    <div className='xml2'> 
      <div>
          <h2>Honda</h2>
          <p>Year: 2003</p>

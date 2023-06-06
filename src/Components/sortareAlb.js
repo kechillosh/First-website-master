@@ -1,9 +1,10 @@
  import React from 'react'
+ import '../styles/xml2.css'
  
  function sortareAlb() {
    return (
-     <div>
-        	<h1>Car List</h1>
+	<div className='xml2'> 
+        	
 		<div>
 			<h2>Volkswagen</h2>
 			<p>Year: 1998</p>

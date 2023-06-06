@@ -1,9 +1,10 @@
  import React from 'react'
+ import '../styles/xml2.css'
  
  function sub30() {
    return (
-     <div>
-        <h1>Car List</h1>
+	<div className='xml2'> 
+        
 		<div>
 			<h2>BMW 7 Series</h2>
 			<p>Year: 2016</p>

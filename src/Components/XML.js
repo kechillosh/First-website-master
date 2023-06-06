@@ -1,35 +1,37 @@
  import React from 'react'
  import { Link, Router } from "react-router-dom";
+ import '../styles/XML.css'
 
  
  function XML() {
    return (
-     <div> 
+    <div className='parent'>
+     <div className='XmlDiv'> 
         <Link to='/sub500'>
-        <button className='button_xml'>masini sub 500 lei</button>
+        <button className='button_xml'>Masini Sub 500 lei</button>
         </Link>
         
         <Link to='/peste500'>
-        <button className='button_xml'>masini peste 500 lei</button>
+        <button className='button_xml'>Masini Peste 500 lei</button>
         </Link>
 
         <Link to='/peste30'>
-        <button className='button_xml'>masini peste 30000 km</button>
+        <button className='button_xml'>Masini Peste 30000 km</button>
         </Link>
 
         <Link to='/sub30'>
-        <button className='button_xml'>masini sub 30000 km</button>
+        <button className='button_xml'>Masini Sub 30000 km</button>
         </Link>
 
         <Link to='/SortAlb'>
-        <button className='button_xml'>masini albe</button>
+        <button className='button_xml'>Masini Albe</button>
         </Link>
 
         <Link to='/SortNegru'>
-        <button className='button_xml'>masini negre</button>
+        <button className='button_xml'>Masini Negre</button>
         </Link>
 
-        <Link to='TipC'>
+        <Link to='/TipC'>
         <button className='button_xml'>Tip Carburant Benzina</button>
         </Link>
 
@@ -38,12 +40,13 @@
         </Link>
 
         <Link to='/Lux'>
-        <button className='button_xml'>masini lux</button>
+        <button className='button_xml'>Masini Lux</button>
         </Link>
 
         <Link to='/sport'>
-        <button className='button_xml'>masini sport</button>
+        <button className='button_xml'>Masini Sport</button>
         </Link>
+        </div>
 
      </div>
    )

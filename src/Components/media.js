@@ -1,8 +1,9 @@
  import React from 'react'
+ import '../styles/xml2.css'
  
  function media() {
    return (
-     <div>
+	<div className='xml2'> 
         	
 		<h1>Car List</h1>
 		<div>
