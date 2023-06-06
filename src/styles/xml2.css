@@ -1,13 +1,16 @@
 .xml2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    
+    
+    height: 100vh;
   }
   
   .xml2 > div {
     width: 300px;
     margin: 10px;
+    height: 300px;
+    
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -24,3 +27,5 @@
     font-size: 16px;
     margin-bottom: 5px;
   }
+
+ 

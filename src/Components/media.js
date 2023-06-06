@@ -5,7 +5,7 @@
    return (
 	<div className='xml2'> 
         	
-		<h1>Car List</h1>
+		
 		<div>
 			<p>Kilometers: 234444Km</p>
 		</div>
