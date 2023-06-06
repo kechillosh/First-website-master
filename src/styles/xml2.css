@@ -1,12 +1,26 @@
 .xml2 {
     display: flex;
-    height: 100vh;
-    background-color: #E0E0E0;
-    
-    
-
-    align-items:center;
-    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .xml2 > div {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
     text-align: center;
-    justify-content: space-around;
-}
+    background-color: #f9f9f9;
+  }
+  
+  .xml2 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .xml2 p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
