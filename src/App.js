@@ -10,16 +10,16 @@ import Footer from "./Components/Footer";
 import Map from "./Components/Map.js";
 import NoCheckout from "./Components/NoCheckout";
 import XML from "./Components/XML";
-import peste30 from './Components/lux'
+import Peste30 from "./Components/peste30";
+import Peste500 from './Components/peste500'
+import Sub30 from './Components/sub30'
+import Sub500 from './Components/sub500'
+import Alb from './Components/sortareAlb'
+import Negru from './Components/sortareNegru'
+import Sport from './Components/sport'
+import TipCarburant from './Components/TipCarburant'
 import Lux from './Components/lux'
-import Lux from './Components/lux'
-import Lux from './Components/lux'
-import Lux from './Components/lux'
-import Lux from './Components/lux'
-import Lux from './Components/lux'
-import Lux from './Components/lux'
-import Lux from './Components/lux'
-import Lux from './Components/lux'
+import Media from './Components/media'
 
 
 function App() {
@@ -42,16 +42,18 @@ function App() {
             />
           </Route>
           <Route path="/XML" element={<XML />} />
-          <Route path="/Lux" element={<Lux />} />
-          <Route path="/peste30" element={<Lux />} />
-          <Route path="/sport" element={<Lux />} />
-          <Route path="/sub30" element={<Lux />} />
-          <Route path="/media" element={<Lux />} />
-          <Route path="/peste 500lei" element={<Lux />} />
-          <Route path="/sub 500 lei" element={<Lux />} />
-          <Route path="/SortNegru" element={<Lux />} />
-          <Route path="/SortAlb" element={<Lux />} />
-          <Route path="/TipCarb" element={<Lux />} />
+          <Route path="/Lux" element={<Lux/>} />
+          <Route path="/peste30" element={<Peste30  />} />
+          <Route path="/sub30" element={< Sub30  />} />
+          <Route path="/peste500" element={< Peste500  />} />
+          <Route path="/sub500" element={<Sub500  />} />
+          <Route path="/SortNegru" element={<Negru  />} />
+          <Route path="/SortAlb" element={<Alb  />} />
+          <Route path="/Media" element={<Media  />} />
+          <Route path="/sport" element={<Sport  />} />
+          <Route path="/TipC" element={<TipCarburant />} />
+
+        
         </Routes>
       </Router>
       {showFooter && <Footer />}

@@ -1,10 +1,9 @@
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Car List</title>
-	</head>
-	<body>
-		<h1>Car List</h1>
+ import React from 'react'
+ 
+ function sub500() {
+   return (
+     <div>
+        <h1>Car List</h1>
 		<div>
 			<h2>Honda</h2>
 			<p>Year: 2003</p>
@@ -75,5 +74,8 @@
 			<p>Color: Alb</p>
 			<p>Rental Price: 350 lei/zi</p>
 		</div>
-	</body>
-</html>
+     </div>
+   )
+ }
+ 
+ export default sub500

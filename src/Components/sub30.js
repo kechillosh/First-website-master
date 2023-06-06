@@ -1,10 +1,9 @@
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Car List</title>
-	</head>
-	<body>
-		<h1>Car List</h1>
+ import React from 'react'
+ 
+ function sub30() {
+   return (
+     <div>
+        <h1>Car List</h1>
 		<div>
 			<h2>BMW 7 Series</h2>
 			<p>Year: 2016</p>
@@ -60,5 +59,8 @@
 			<p>Year: 2017</p>
 			<p>Kilometers: 9434Km</p>
 		</div>
-	</body>
-</html>
+     </div>
+   )
+ }
+ 
+ export default sub30

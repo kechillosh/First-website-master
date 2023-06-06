@@ -1,10 +1,9 @@
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Car List</title>
-	</head>
-	<body>
-		<h1>Car List</h1>
+ import React from 'react'
+ 
+ function sortareAlb() {
+   return (
+     <div>
+        	<h1>Car List</h1>
 		<div>
 			<h2>Volkswagen</h2>
 			<p>Year: 1998</p>
@@ -47,5 +46,8 @@
 			<p>Kilometers: 32993 Km</p>
 			<p>Color: Alb</p>
 		</div>
-	</body>
-</html>
+     </div>
+   )
+ }
+ 
+ export default sortareAlb

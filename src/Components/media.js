@@ -1,9 +1,9 @@
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Car List</title>
-	</head>
-	<body>
+ import React from 'react'
+ 
+ function media() {
+   return (
+     <div>
+        	
 		<h1>Car List</h1>
 		<div>
 			<p>Kilometers: 234444Km</p>
@@ -14,5 +14,8 @@
 		<div>
 			<p>Kilometers: 53332Km</p>
 		</div>
-	</body>
-</html>
+     </div>
+   )
+ }
+ 
+ export default media

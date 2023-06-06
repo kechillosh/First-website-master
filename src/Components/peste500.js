@@ -1,10 +1,9 @@
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Car List</title>
-	</head>
-	<body>
-		<h1>Car List</h1>
+ import React from 'react'
+ 
+ function peste500() {
+   return (
+     <div>
+        <h1>Car List</h1>
 		<div>
 			<h2>Lamborghini Huracán</h2>
 			<p>Year: 2020</p>
@@ -75,5 +74,8 @@
 			<p>Color: Negru</p>
 			<p>Rental Price: 800 lei/zi</p>
 		</div>
-	</body>
-</html>
+     </div>
+   )
+ }
+ 
+ export default peste500

@@ -1,10 +1,9 @@
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Car List</title>
-	</head>
-	<body>
-		<h1>Car List</h1>
+ import React from 'react'
+ 
+ function TipCarburant() {
+   return (
+     <div>
+        <h1>Car List</h1>
 		<div>
 			<h2>Honda</h2>
 			<p>Year: 2003</p>
@@ -101,5 +100,8 @@
 			<p>Kilometers: 24432Km Km</p>
 			<p>Fuel Type: Benzina</p>
 		</div>
-	</body>
-</html>
+     </div>
+   )
+ }
+ 
+ export default TipCarburant
