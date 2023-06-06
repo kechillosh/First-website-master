@@ -10,6 +10,16 @@ import Footer from "./Components/Footer";
 import Map from "./Components/Map.js";
 import NoCheckout from "./Components/NoCheckout";
 import XML from "./Components/XML";
+import peste30 from './Components/lux'
+import Lux from './Components/lux'
+import Lux from './Components/lux'
+import Lux from './Components/lux'
+import Lux from './Components/lux'
+import Lux from './Components/lux'
+import Lux from './Components/lux'
+import Lux from './Components/lux'
+import Lux from './Components/lux'
+import Lux from './Components/lux'
 
 
 function App() {
@@ -32,6 +42,16 @@ function App() {
             />
           </Route>
           <Route path="/XML" element={<XML />} />
+          <Route path="/Lux" element={<Lux />} />
+          <Route path="/peste30" element={<Lux />} />
+          <Route path="/sport" element={<Lux />} />
+          <Route path="/sub30" element={<Lux />} />
+          <Route path="/media" element={<Lux />} />
+          <Route path="/peste 500lei" element={<Lux />} />
+          <Route path="/sub 500 lei" element={<Lux />} />
+          <Route path="/SortNegru" element={<Lux />} />
+          <Route path="/SortAlb" element={<Lux />} />
+          <Route path="/TipCarb" element={<Lux />} />
         </Routes>
       </Router>
       {showFooter && <Footer />}
