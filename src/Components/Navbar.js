@@ -5,12 +5,9 @@ import logo from "../assets/logo1.png";
 import { SiGooglemaps } from "react-icons/si";
 import { SiGooglehome } from "react-icons/si";
 import { SiGooglemessages } from "react-icons/si";
-import { TfiAlignJustify } from "react-icons/tfi";
 import DropdownMenu from "./DropdownMenu";
-import { GoogleMap, LoadScript, MapContext } from "@react-google-maps/api";
-import Map from "./Map";
+
 import { SlBookOpen} from "react-icons/sl";
-import LoginPopup from "./LoginPopup";
 
 function Navbar() {
   const handleButtonClick1 = () => {
@@ -54,7 +51,6 @@ function Navbar() {
         <Link className="navLink" to="/XML" >
          <SlBookOpen/>  Xml
         </Link>
-        <LoginPopup/>
       </div>
       <div className="mainDrop">
         <DropdownMenu className="dropdownmenu" />
