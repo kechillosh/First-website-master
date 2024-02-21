@@ -1,11 +1,10 @@
 import "./App.css";
 import Navbar from "./Components/Navbar";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import Home from "./Components/Home";
 import Locations from "./Components/Locations";
 import Contact from "./Components/Contact";
 import React, { useState } from "react";
-import { GoogleMap, LoadScript } from "@react-google-maps/api";
 import Footer from "./Components/Footer";
 import Map from "./Components/Map.js";
 import NoCheckout from "./Components/NoCheckout";
@@ -16,10 +15,6 @@ import Sub30 from './Components/sub30'
 import Sub500 from './Components/sub500'
 import Alb from './Components/sortareAlb'
 import Negru from './Components/sortareNegru'
-import Sport from './Components/sport'
-import TipCarburant from './Components/TipCarburant'
-import Lux from './Components/lux'
-import Media from './Components/media'
 
 
 function App() {
@@ -42,16 +37,12 @@ function App() {
             />
           </Route>
           <Route path="/XML" element={<XML />} />
-          <Route path="/Lux" element={<Lux/>} />
           <Route path="/peste30" element={<Peste30  />} />
           <Route path="/sub30" element={< Sub30  />} />
           <Route path="/peste500" element={< Peste500  />} />
           <Route path="/sub500" element={<Sub500  />} />
           <Route path="/SortNegru" element={<Negru  />} />
           <Route path="/SortAlb" element={<Alb  />} />
-          <Route path="/Media" element={<Media  />} />
-          <Route path="/sport" element={<Sport  />} />
-          <Route path="/TipC" element={<TipCarburant />} />
 
         
         </Routes>

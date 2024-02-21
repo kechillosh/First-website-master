@@ -1,5 +1,4 @@
 import React from "react";
-import backg from "../assets/backg.jpg";
 import backg1 from "../assets/backg1.png";
 import "../styles/Home.css";
 

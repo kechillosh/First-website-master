@@ -31,21 +31,6 @@
         <button className='button_xml'>Masini Negre</button>
         </Link>
 
-        <Link to='/TipC'>
-        <button className='button_xml'>Tip Carburant Benzina</button>
-        </Link>
-
-        <Link to='/Media'>
-        <button className='button_xml'>Media de km a masinilor</button>
-        </Link>
-
-        <Link to='/Lux'>
-        <button className='button_xml'>Masini Lux</button>
-        </Link>
-
-        <Link to='/sport'>
-        <button className='button_xml'>Masini Sport</button>
-        </Link>
         </div>
 
      </div>

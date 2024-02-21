@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
-import logo from "../assets/logo1.png";
-import { SiGooglemaps } from "react-icons/si";
-import { SiGooglehome } from "react-icons/si";
-import { SiGooglemessages } from "react-icons/si";
 import { TfiAlignJustify } from "react-icons/tfi";
 
 const DropdownMenu = () => {
