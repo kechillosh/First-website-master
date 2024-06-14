@@ -1,3 +1,8 @@
+Context:  A website I’ve created using JavaScript, HTML, CSS, React, and a little bit of XML for a university project.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
